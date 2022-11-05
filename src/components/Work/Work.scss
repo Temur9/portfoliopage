@@ -1,8 +1,98 @@
 @import '../../App.scss';
 
-.work{
+.work {
     padding: 130px 0;
-    border-top: 1px solid $dark;
-    border-bottom: 1px solid $dark;
-    opacity: 0.15;
+    border-top: 1px solid #2d374822;
+    border-bottom: 1px solid #2d374822;
+
+    .work-section {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+
+        .work-container {
+            width: 50%;
+            margin: 0 0 96px;
+            padding: 0 24px;
+
+            .work-picture {
+                box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+                border-radius: 6px;
+                overflow: hidden;
+                margin-bottom: 30px;
+                transition: .5s ease;
+
+                &:hover {
+                    transform: scale(1.05);
+                }
+
+
+                .picture_link {
+                    img {
+                        width: 100%;
+                        height: 350px;
+                    }
+                }
+            }
+
+            .work-h4 {
+                margin-bottom: 25px;
+
+                a {
+                    text-decoration: none;
+                    color: $blue;
+                    font-family: $bold;
+                    font-size: 28px;
+                    transition: .3s ease;
+
+                    &:hover {
+                        color: $dark;
+                    }
+
+                    i {
+                        margin-left: 10px;
+                    }
+                }
+
+                span {
+                    position: relative;
+                    margin: 0 10px;
+
+                    &::before {
+                        content: '';
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        width: 7px;
+                        height: 7px;
+                        border-radius: 50%;
+                        background-color: #718096;
+                    }
+                }
+            }
+
+            .work-text{
+                font-family: $regular;
+                font-size: 20px;
+                color: $dark;
+                margin-bottom: 30px;
+            }
+
+            .work-languages{
+                display: flex;
+                flex-wrap: wrap;
+                span{
+                    font-family: $regular;
+                    font-size: 18px;
+                    color: #4A5568;
+                    margin-right: 10px;
+                    padding: 4px 8px;
+                    background-color: #EDF2F7;
+                    border-radius: 5px;
+                    margin-bottom: 8px;
+                }
+            }
+        }
+
+    }
 }
