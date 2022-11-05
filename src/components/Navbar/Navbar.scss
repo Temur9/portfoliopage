@@ -1,0 +1,33 @@
+@import '../../App.scss';
+
+.navbar{
+
+    .nav-section{
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        padding-top: 50px;
+
+        ul{
+            list-style: none;
+            display: flex;
+            align-items: center;
+            
+            li{
+                margin-left: 30px;
+
+                a{
+                    text-decoration: none;
+                    color: $dark;
+                    font-family: $bold;
+                    font-size: 20px;
+                    text-transform: uppercase;
+                    transition: .3s ease;
+                    &:hover{
+                        color: $blue;
+                    }
+                }
+            }
+        }
+    }
+}

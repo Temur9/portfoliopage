@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'worksansBold';
+    src: url('../public/fonts/WorkSans-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'worksansRegular';
+    src: url('../public/fonts/WorkSans-Regular.ttf');
+}
+
+// Fonts
+$bold:'worksansBold';
+$regular:'worksansRegular';
+
+// Colors
+$blue:#214ECF;
+$hoverBlue:#BBD2FF;
+$bgBlue:#5285FF;
+$dark:#2D3748;
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
