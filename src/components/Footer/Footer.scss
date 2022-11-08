@@ -1,1 +1,82 @@
 @import '../../App.scss';
+
+.footer {
+    padding: 80px 16px;
+
+    .footer-section {
+        text-align: center;
+
+        h3 {
+            font-family: $bold;
+            font-size: 22px;
+            color: $dark;
+            text-transform: uppercase;
+        }
+
+        .connect-links {
+            padding: 20px 0;
+            margin-bottom: 16px;
+            display: flex;
+            justify-content: center;
+
+            .links-container {
+                width: 20%;
+
+                ul {
+                    list-style: none;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+
+                    li {
+                        a {
+                            text-decoration: none;
+                            color: $blue;
+                            font-size: 48px;
+                            transition: .3s ease;
+
+                            &:hover {
+                                color: $dark;
+                            }
+                        }
+                    }
+                }
+
+            }
+
+        }
+
+        p {
+            font-family: $regular;
+            font-size: 18px;
+            color: $dark;
+            line-height: 24px;
+        }
+
+        .toTopBtn {
+            margin-top: 32px;
+            display: flex;
+            justify-content: center;
+
+            button {
+                text-decoration: none;
+                font-family: $regular;
+                font-size: 20px;
+                color: $blue;
+                padding: 12px 20px;
+                border: 2px solid $blue;
+                border-radius: 30px;
+                margin-right: 15px;
+                transition: .3s ease;
+                background-color: transparent;
+                cursor: pointer;
+
+                &:hover {
+                    background-color: $hoverBlue;
+                    border: 2px solid $hoverBlue;
+                }
+
+            }
+        }
+    }
+}

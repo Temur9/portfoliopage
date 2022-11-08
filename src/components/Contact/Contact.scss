@@ -1,1 +1,104 @@
 @import '../../App.scss';
+
+.contact {
+    border-bottom: 1px solid #2d374822;
+    .contact-section {
+        width: 66%;
+        margin: 0 auto;
+        padding: 128px 0;
+
+        .contact-header {
+            margin: 0 auto;
+            text-align: center;
+            margin-bottom: 80px;
+
+            h2 {
+                font-family: $bold;
+                font-size: 48px;
+                color: $blue;
+                margin-bottom: 16px;
+            }
+
+            p {
+                font-family: $regular;
+                font-size: 24px;
+                color: $dark;
+                line-height: 36px;
+            }
+        }
+
+        .contact-form {
+            label {
+                font-family: $bold;
+                font-size: 20px;
+                color: $dark;
+                text-transform: uppercase;
+            }
+
+            input, #message {
+                width: 100%;
+                padding: 12px;
+                margin: 8px 0 0 0;
+                font-family: $regular;
+                font-size: 20px;
+                color: $dark;
+                border: 1px solid $hoverBlue;
+                border-radius: 5px;
+                background-color: $inputBg;
+                outline: none;
+                transition: .3s ease;
+                &:focus{
+                    border: 1px solid $blue;
+                }
+                &::placeholder{
+                    color: $plcColor;
+                }
+            }
+
+            .name-input {
+                display: flex;
+                flex-direction: row;
+
+                #nameIn {
+                    width: 50%;
+                    margin: 0 24px 24px 0;
+                }
+
+                #lastIn {
+                    width: 50%;
+                    margin: 0 0 24px 0;
+                }
+
+            }
+
+            .email-input{
+                margin-bottom: 40px;
+            }
+
+            .message-input{
+                margin-bottom: 40px;
+                #message{
+                    width: 100%;
+                    resize: vertical;
+                }
+            }
+            .submit-button{
+                display: flex;
+                justify-content: center;
+                button{
+                    margin-top: 24px;
+                    padding: 12px 48px;
+                    font-family: $bold;
+                    font-size: 20px;
+                    text-transform: uppercase;
+                    color: #ffffff;
+                    background-color: $blue;
+                    outline: none;
+                    border: none;
+                    border-radius: 25px;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}

@@ -1,7 +1,7 @@
 @import '../../App.scss';
 
 .work {
-    padding: 130px 0;
+    padding: 130px 65px 0;
     border-top: 1px solid #2d374822;
     border-bottom: 1px solid #2d374822;
 
@@ -21,7 +21,6 @@
                 overflow: hidden;
                 margin-bottom: 30px;
                 transition: .5s ease;
-
                 &:hover {
                     transform: scale(1.05);
                 }
