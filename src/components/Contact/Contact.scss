@@ -148,3 +148,35 @@
         }
     }
 }
+@media(max-width:768px){
+    .contact{
+        .contact-section{
+            width: 100%;
+            padding: 60px 0;
+            .contact-header{
+                text-align: start;
+                margin-bottom: 40px;
+                h2{
+                    font-size: 30px;
+                }
+                p{
+                    font-size: 20px;
+                }
+            }
+            .contact-form{
+                input,#message{
+                    padding: 16px 12px;
+                }
+                .name-input{
+                    flex-direction: column;
+                    #nameIn{
+                        width: 100%;
+                    }
+                    #lastIn{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}

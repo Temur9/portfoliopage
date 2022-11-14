@@ -115,3 +115,20 @@
         }
     }
 }
+@media(max-width:768px){
+    .footer{
+        .footer-section{
+            .connect-links{
+                .links-container{
+                    ul{
+                        li{
+                            a{
+                                font-size: 32px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

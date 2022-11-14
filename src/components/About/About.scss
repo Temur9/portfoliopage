@@ -213,3 +213,69 @@
         }
     }
 }
+
+@media(max-width:768px) {
+    .about {
+        .about-section {
+            .about-image {
+                .image-container {
+                    img {
+                        width: 200px;
+                    }
+                }
+            }
+
+            .about-container {
+                .about-text {
+                    p {
+                        font-size: 28px;
+                    }
+                }
+
+                .stack-container {
+                    .about-stack_h3 {
+                        font-size: 22px;
+                    }
+
+                    .about-stack {
+                        width: 100%;
+
+                        .stack {
+                            padding: 12px;
+
+                            img {
+                                width: 80px;
+                            }
+                        }
+                    }
+                }
+
+                .mission-container {
+                    width: 100%;
+                    align-items: center;
+                    flex-direction: column;
+
+                    .missions {
+                        width: 70%;
+                        margin-bottom: 48px;
+
+                        h3 {
+                            font-size: 24px;
+                        }
+
+                        p {
+                            font-size: 20px;
+                        }
+                    }
+                }
+
+                .mission-text {
+                    p {
+                        font-size: 20px;
+                        line-height: 28px;
+                    }
+                }
+            }
+        }
+    }
+}

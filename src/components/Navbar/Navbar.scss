@@ -40,3 +40,20 @@
         }
     }
 }
+
+@media(max-width:768px){
+    .navbar{
+
+        .nav-section{
+            padding-top: 30px;
+            justify-content: center;
+            ul{
+                li{
+                    a{
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+    }
+}

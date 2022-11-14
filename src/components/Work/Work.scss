@@ -81,7 +81,7 @@
             .work-languages {
                 display: flex;
                 flex-wrap: wrap;
-
+                    
                 span {
                     font-family: $regular;
                     font-size: 18px;
@@ -135,6 +135,26 @@
                         padding: 4px 6px;
                     }
                 }
+            }
+        }
+    }
+}
+@media(max-width:768px){
+    .work{
+        padding: 72px 20px;
+        .work-section{
+            // flex-direction: column;
+            .work-container{
+                width: 100%;
+                .work-picture{
+
+                    .picture_link{
+                        img{
+                            height: 400px;
+                        }
+                    }
+                }
+
             }
         }
     }

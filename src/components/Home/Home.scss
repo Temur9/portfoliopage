@@ -86,6 +86,7 @@
         padding: 120px 0;
 
         .home-section {
+            width: 90%;
 
             .home-left_section {
 
@@ -114,6 +115,50 @@
                 .home-buttons {
                     .home-button {
                         font-size: 18px;
+                        padding: 10px 16px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(max-width:768px) {
+    .home {
+        padding: 90px 0;
+
+        .home-section {
+            width: 100%;
+            flex-direction: column;
+
+            .home-left_section {
+                img {
+                    width: 200px;
+                }
+
+                margin-bottom: 15px;
+            }
+
+            .home-right_section {
+                padding: 0;
+                text-align: center;
+
+                .home-text {
+                    font-size: 22px;
+                }
+
+                .home-text_header {
+                    font-size: 32px;
+                    margin-bottom: 12px;
+                }
+
+                #home-text {
+                    font-size: 20px;
+                }
+
+                .home-buttons {
+                    justify-content: center;
+                    .home-button {
                         padding: 10px 16px;
                     }
                 }
