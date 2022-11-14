@@ -1,5 +1,8 @@
 import React from "react";
 import "../About/About.scss";
+import stacks from "./Stacks";
+
+const shortid = require("shortid");
 
 const About = () => {
   return (
@@ -24,39 +27,11 @@ const About = () => {
               <div className="stack-container">
                 <h3 className="about-stack_h3">MY ACTUAL STACK</h3>
                 <div className="about-stack">
-                  <div className="stack">
-                    <img src="/images/stacks/html.svg" alt="html" />
-                  </div>
-                  <div className="stack">
-                    <img src="/images/stacks/css.svg" alt="css" />
-                  </div>
-                  <div className="stack">
-                    <img src="/images/stacks/sass.svg" alt="sass" />
-                  </div>
-                  <div className="stack">
-                    <img src="/images/stacks/bootstrap.svg" alt="bootstrap" />
-                  </div>
-                  <div className="stack">
-                    <img src="/images/stacks/javascript.svg" alt="javascript" />
-                  </div>
-                  <div className="stack">
-                    <img src="/images/stacks/react.svg" alt="react" />
-                  </div>
-                  <div className="stack">
-                    <img src="/images/stacks/redux.svg" alt="redux" />
-                  </div>
-                  <div className="stack">
-                    <img src="/images/stacks/npm.svg" alt="npm" />
-                  </div>
-                  <div className="stack">
-                    <img src="/images/stacks/yarn.svg" alt="yarn" />
-                  </div>
-                  <div className="stack">
-                    <img src="/images/stacks/git.svg" alt="git" />
-                  </div>
-                  <div className="stack">
-                    <img src="/images/stacks/github.svg" alt="github" />
-                  </div>
+                  {stacks.map(({ img, alt }) => (
+                    <div key={shortid.generate()} className="stack">
+                      <img src={img} alt={alt} />
+                    </div>
+                  ))}
                 </div>
               </div>
               <div className="mission-container">
@@ -93,7 +68,7 @@ const About = () => {
                 </p>
               </div>
               <div className="resume-download">
-              <a href="/#">Download my resume</a>
+                <a href="/#">Download my resume</a>
               </div>
             </div>
           </div>

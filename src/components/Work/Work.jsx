@@ -12,7 +12,7 @@ const Work = () => {
         <div className="container">
           <div className="work-section">
             {works.map(
-              ({ name, url, img, alt, github, definition, stacks } = works) => (
+              ({ name, url, img, alt, github, definition, stacks }) => (
                 <div key={shortid.generate()} className="work-container">
                   <div className="work-picture">
                     <a className="picture_link" target={"blank"} href={url}>
