@@ -2,12 +2,14 @@
 
 .about {
     border-bottom: 1px solid #2d374822;
+
     .about-section {
         padding: 128px 32px;
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
+
         .about-image {
             margin-bottom: 60px;
 
@@ -116,9 +118,11 @@
                     line-height: 36px;
                 }
             }
+
             .resume-download {
                 display: flex;
-justify-content: center;
+                justify-content: center;
+
                 a {
                     text-decoration: none;
                     font-family: $regular;
@@ -139,5 +143,73 @@ justify-content: center;
         }
 
 
+    }
+}
+
+@media(max-width:1024px) {
+    .about {
+
+        .about-section {
+            padding: 96px 28px;
+
+            .about-image {
+                margin-bottom: 36px;
+            }
+
+            .about-container {
+                .about-text {
+                    margin-bottom: 56px;
+
+                    p {
+                        font-size: 32px;
+                    }
+                }
+
+                .stack-container {
+                    margin-bottom: 56px;
+
+                    .about-stack_h3 {
+                        font-size: 22px;
+                        margin-bottom: 28px;
+                    }
+
+                    .about-stack {
+                        .stack {
+                            padding: 24px;
+                        }
+                    }
+                }
+
+                .mission-container {
+                    margin-bottom: 64px;
+
+                    .missions {
+
+                        h3 {
+                            font-size: 26px;
+                        }
+
+                        p {
+                            font-size: 20px;
+                            line-height: 32px;
+                        }
+                    }
+                }
+
+                .mission-text {
+                    p {
+                        font-size: 22px;
+                        line-height: 32px;
+                    }
+                }
+
+                .resume-download {
+                    a {
+                        font-size: 18px;
+                        padding: 12px 18px;
+                    }
+                }
+            }
+        }
     }
 }

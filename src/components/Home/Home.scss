@@ -2,6 +2,7 @@
 
 .home {
     padding: 200px 0;
+
     .home-section {
         width: 80%;
         margin: 0 auto;
@@ -73,6 +74,47 @@
                     &:hover {
                         background-color: $hoverBlue;
                         border: 2px solid $hoverBlue;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(max-width:1024px) {
+    .home {
+        padding: 120px 0;
+
+        .home-section {
+
+            .home-left_section {
+
+                img {
+                    width: 230px;
+                }
+            }
+
+            .home-right_section {
+                width: 70%;
+                padding: 0 0 0 48px;
+
+                .home-text {
+                    font-size: 26px;
+                    line-height: 32px;
+                }
+
+                .home-text_header {
+                    font-size: 42px;
+                }
+
+                #home-text {
+                    font-size: 22px;
+                }
+
+                .home-buttons {
+                    .home-button {
+                        font-size: 18px;
+                        padding: 10px 16px;
                     }
                 }
             }

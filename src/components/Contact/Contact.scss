@@ -2,6 +2,7 @@
 
 .contact {
     border-bottom: 1px solid #2d374822;
+
     .contact-section {
         width: 66%;
         margin: 0 auto;
@@ -35,7 +36,8 @@
                 text-transform: uppercase;
             }
 
-            input, #message {
+            input,
+            #message {
                 width: 100%;
                 padding: 12px;
                 margin: 8px 0 0 0;
@@ -47,10 +49,12 @@
                 background-color: $inputBg;
                 outline: none;
                 transition: .3s ease;
-                &:focus{
+
+                &:focus {
                     border: 1px solid $blue;
                 }
-                &::placeholder{
+
+                &::placeholder {
                     color: $plcColor;
                 }
             }
@@ -71,21 +75,24 @@
 
             }
 
-            .email-input{
+            .email-input {
                 margin-bottom: 40px;
             }
 
-            .message-input{
+            .message-input {
                 margin-bottom: 40px;
-                #message{
+
+                #message {
                     width: 100%;
                     resize: vertical;
                 }
             }
-            .submit-button{
+
+            .submit-button {
                 display: flex;
                 justify-content: center;
-                button{
+
+                button {
                     margin-top: 24px;
                     padding: 12px 48px;
                     font-family: $bold;
@@ -97,6 +104,45 @@
                     border: none;
                     border-radius: 25px;
                     cursor: pointer;
+                }
+            }
+        }
+    }
+}
+
+@media(max-width:1024px) {
+    .contact {
+
+        .contact-section {
+            padding: 96px 0;
+
+            .contact-header {
+
+                h2 {
+                    font-size: 42px;
+                }
+
+                p {
+                    font-size: 22px;
+                    line-height: 32px;
+                }
+            }
+
+            .contact-form {
+                label {
+                    font-size: 18px;
+                }
+
+                input,
+                #message {
+                    font-size: 18px;
+                }
+
+                .submit-button {
+                    button {
+                        padding: 12px 42px;
+                        font-size: 18px;
+                    }
                 }
             }
         }
