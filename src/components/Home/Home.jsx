@@ -16,7 +16,7 @@ const Home = () => {
                         <h1 className='home-text_header'>Front-end Developer</h1>
                         <p className="home-text" id='home-text'>I develop responsive, optimized and efficient websites. Satisfiction on my projects is my pride.</p>
                         <div className="home-buttons">
-                            <a href="/#" className="home-button">Get in touch</a>
+                            <a href="/#contact" className="home-button">Get in touch</a>
                             <a href="/#" className="home-button">My resume</a>
                         </div>
                     </div>
