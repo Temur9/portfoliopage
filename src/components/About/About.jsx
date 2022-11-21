@@ -18,10 +18,9 @@ const About = () => {
             <div className="about-container">
               <div className="about-text">
                 <p>
-                  Hello ! I'm Antonin Nhek, Front-end developer based in Lyon
-                  (France). After several years in graphic design and a
-                  retraining in web programming, I offer my services as a
-                  freelance.
+                  Hello ! I'm Tulamov Temur, Front-end developer based in
+                  Tashkent (Uzbekistan).I have been working on my different
+                  projects,since I graduated from the training center
                 </p>
               </div>
               <div className="stack-container">
@@ -59,16 +58,18 @@ const About = () => {
               </div>
               <div className="mission-text">
                 <p>
-                  Passionate about design and front-end web development, I am
-                  committed to carrying out the opportunities entrusted to me by
-                  building modern and effective solutions. Rigorous and
-                  demanding, I take care to respect the best practices and
-                  standards of the Web. Being also curious and open, I like to
-                  experiment with the latest trends through daily monitoring.
+                  Passionate about front-end web development, I am committed to
+                  carrying out the opportunities entrusted to me by building
+                  modern and effective solutions. Rigorous and demanding, I take
+                  care to respect the best practices and standards of the Web.
+                  Being also curious and open, I like to experiment with the
+                  latest trends through daily monitoring.
                 </p>
               </div>
               <div className="resume-download">
-                <a href="/#">Download my resume</a>
+                <a href="https://www.dropbox.com/s/949tqkeppoj9xms/Tulamov%20Temurbek%28CV%29.pdf?dl=0">
+                  Download my resume
+                </a>
               </div>
             </div>
           </div>

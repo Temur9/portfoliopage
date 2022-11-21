@@ -1,0 +1,57 @@
+.loader_container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.loader {
+    color: #214ecf;
+    font-family: Consolas, Menlo, Monaco, monospace;
+    font-weight: bold;
+    font-size: 100px;
+    opacity: 0.9;
+  }
+  .loader:before {
+    content: "{";
+    display: inline-block;
+    animation: pulse 0.4s alternate infinite ease-in-out;
+  }
+  .loader:after {
+    content: "}";
+    display: inline-block;
+    animation: pulse 0.4s 0.3s alternate infinite ease-in-out;
+  }
+
+  @keyframes pulse {
+    to {
+      transform: scale(0.8);
+      opacity: 0.5;
+    }
+  }
+
+
+
+  @media(max-width:1023.98px){
+    .loader{
+        font-size: 80px;
+    }
+  }
+
+  @media(max-width:767.98px){
+    .loader{
+        font-size: 65px;
+    }
+  }
+
+  @media(max-width:575.98px){
+    .loader{
+        font-size: 50px;
+    }
+  }
+      
+
+
+

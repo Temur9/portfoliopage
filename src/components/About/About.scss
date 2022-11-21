@@ -131,7 +131,6 @@
                     padding: 12px 20px;
                     border: 2px solid $blue;
                     border-radius: 30px;
-                    margin-right: 15px;
                     transition: .3s ease;
 
                     &:hover {
@@ -146,7 +145,7 @@
     }
 }
 
-@media(max-width:1024px) {
+@media(max-width:1023.98px) {
     .about {
 
         .about-section {
@@ -182,8 +181,12 @@
 
                 .mission-container {
                     margin-bottom: 64px;
+                    align-items: center;
+                    flex-direction: column;
 
                     .missions {
+                        width: 50%;
+                        margin-bottom: 30px;
 
                         h3 {
                             font-size: 26px;
@@ -214,7 +217,7 @@
     }
 }
 
-@media(max-width:768px) {
+@media(max-width:767.98px) {
     .about {
         .about-section {
             .about-image {
@@ -276,6 +279,84 @@
                     }
                 }
             }
+        }
+    }
+}
+
+@media(max-width:575.98px) {
+    .about {
+
+        .about-section {
+            padding: 36px 0;
+
+            .about-image {
+                .image-container {
+                    img {
+                        width: 180px;
+                    }
+                }
+            }
+
+            .about-container {
+                width: 100%;
+
+                .about-text {
+                    p {
+                        font-size: 22px;
+                    }
+                }
+
+                .stack-container {
+                    .about-stack_h3 {
+                        font-size: 16px;
+                    }
+
+                    .about-stack {
+                        .stack {
+                            padding: 6px;
+
+                            img {
+                                width: 60px;
+                            }
+                        }
+                    }
+                }
+
+                .mission-container {
+                    .missions {
+                        width: 80%;
+                        margin: 0 10px;
+
+                        img {
+                            width: 60px;
+                            margin-bottom: 10px;
+                        }
+
+                        h3 {
+                            font-size: 20px;
+                        }
+
+                        p {
+                            font-size: 16px;
+                        }
+                    }
+                }
+
+                .mission-text {
+                    margin-bottom: 32px;
+                    p {
+                        font-size: 18px;
+                        line-height: 24px;
+                    }
+                }
+                .resume-download{
+                    a{
+                        font-size: 16px;
+                        padding: 10px 12px;
+                    }
+                }
+            }
+
         }
     }
 }

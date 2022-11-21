@@ -81,7 +81,7 @@
     }
 }
 
-@media(max-width:1024px) {
+@media(max-width:1023.98px) {
     .home {
         padding: 120px 0;
 
@@ -123,7 +123,7 @@
     }
 }
 
-@media(max-width:768px) {
+@media(max-width:767.98px) {
     .home {
         padding: 90px 0;
 
@@ -165,4 +165,34 @@
             }
         }
     }
+}
+
+@media(max-width:575.98px){
+        .home{
+            .home-section{
+                .home-left_section{
+                    img{
+                        width: 180px;
+                    }
+                }
+                .home-right_section{
+                    width: 100%;
+                    .home-text{
+                        font-size: 18px;
+                    }
+                    .home-text_header{
+                        font-size: 26px;
+                    }
+                    #home-text{
+                        font-size: 18px;
+                    }
+                    .home-buttons{
+                        .home-button{
+                            font-size: 16px;
+                            padding: 6px 10px;
+                        }
+                    }
+                }
+            }
+        }
 }
