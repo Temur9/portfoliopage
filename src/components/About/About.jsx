@@ -67,7 +67,7 @@ const About = () => {
                 </p>
               </div>
               <div className="resume-download">
-                <a href="https://www.dropbox.com/s/949tqkeppoj9xms/Tulamov%20Temurbek%28CV%29.pdf?dl=0">
+                <a href="https://drive.google.com/file/d/1TBQReVaf_HLf3YHfVFh1SUoSwAsRYDRS/view?usp=sharing">
                   Download my resume
                 </a>
               </div>
