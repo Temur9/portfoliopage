@@ -67,7 +67,7 @@ const About = () => {
                 </p>
               </div>
               <div className="resume-download">
-                <a href="https://drive.google.com/file/d/1TBQReVaf_HLf3YHfVFh1SUoSwAsRYDRS/view?usp=sharing">
+                <a href="/#">
                   Download my resume
                 </a>
               </div>
