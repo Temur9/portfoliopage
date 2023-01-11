@@ -37,7 +37,7 @@ const Footer = () => {
               </div>
             </div>
             <p>
-              Build with <i className="fa-solid fa-heart"></i> Tulamov Temur © 2022{" "}
+              Build with <i className="fa-solid fa-heart"></i> Tulamov Temur © 2023
               <br />
               Powered by React<br />
               Hosted by Netlify
