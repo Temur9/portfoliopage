@@ -7,7 +7,7 @@ const works = [
     github: "https://github.com/Temur9/Marico",
     definition:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi,dicta?",
-    stacks: ["HTML", "CSS", "Sass", "React", "React-Router-Dom"],
+    stacks: ["HTML", "CSS", "SCSS", "React", "React-Router-Dom"],
   },
   {
     name:'Online shopping',
