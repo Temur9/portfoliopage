@@ -1,5 +1,15 @@
 const works = [
   {
+    name:'Marico',
+    url: "https://marico-temurbek.netlify.app/",
+    img: "/images/marico.png",
+    alt: "marico",
+    github: "https://github.com/Temur9/Marico",
+    definition:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi,dicta?",
+    stacks: ["HTML", "CSS", "Sass", "React", "React-Router-Dom"],
+  },
+  {
     name:'Online shopping',
     url: "https://coctail-shop.netlify.app/",
     img: "/images/coctail-shop.png",
@@ -7,7 +17,7 @@ const works = [
     github: "https://github.com/Temur9/shopping",
     definition:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi,dicta?",
-    stacks: ["HTML", "CSS", "React", "Redux",],
+    stacks: ["HTML", "CSS", "React", "React-Router-Dom", "Redux",],
   },
   {
     name:'ToDo list',
