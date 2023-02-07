@@ -6,7 +6,7 @@ const works = [
     alt: "marico",
     github: "https://github.com/Temur9/Marico",
     definition:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi,dicta?",
+      "This beautiful themed site is built with React, React-Router-Dom and of course HTML, Scss. Follow the link and enjoy the design.",
     stacks: ["HTML", "CSS", "SCSS", "React", "React-Router-Dom"],
   },
   {
@@ -16,7 +16,7 @@ const works = [
     alt: "coctail-shop",
     github: "https://github.com/Temur9/shopping",
     definition:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi,dicta?",
+      "Now many people are already accustomed to online shopping. This site is for those who like to purchase goods without leaving home. The site is built with React, React-Router-Dom, Redux, HTML and Css.",
     stacks: ["HTML", "CSS", "React", "React-Router-Dom", "Redux",],
   },
   {
@@ -26,7 +26,7 @@ const works = [
     alt: "todo",
     github: "https://github.com/Temur9/todo",
     definition:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi,dicta?",
+      "This application, which is built with HTML, Css and React, helps you write and do important tasks.",
     stacks: ["HTML", "CSS", "React",],
   },
   {
@@ -36,7 +36,7 @@ const works = [
     alt: "tictactoe",
     github: "https://github.com/Temur9/tic-tac-toe-JS",
     definition:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi,dicta?",
+      "You probably already know how to play Tic-Tac-Toe. It's a really simple game, right? That's what most people think. But if you really wrap your brain around it, you'll discover that Tic-Tac-Toe isn't quite as simple as you think!",
     stacks: ["HTML", "CSS",'JavaScript',],
   },
   {
@@ -46,7 +46,7 @@ const works = [
     alt: "weather-app",
     github: "https://github.com/Temur9/weather-app_ReactJS",
     definition:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi,dicta?",
+      "A React application to show a weather forecast using weather API. Get accurate weather information for locations around the world on weather application.",
     stacks: ["HTML", "CSS", "React",],
   },
   

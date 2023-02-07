@@ -14,21 +14,20 @@
             width: 50%;
             margin: 0 0 96px;
             padding: 0 24px;
-
+            
             .work-picture {
                 box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
                 border-radius: 6px;
                 overflow: hidden;
                 margin-bottom: 30px;
                 transition: .5s ease;
-
                 &:hover {
                     transform: scale(1.05);
                 }
 
 
                 .picture_link {
-                        img {
+                    img {
                         width: 100%;
                         height: 350px;
                         vertical-align: middle;
@@ -82,7 +81,7 @@
             .work-languages {
                 display: flex;
                 flex-wrap: wrap;
-                    
+
                 span {
                     font-family: $regular;
                     font-size: 18px;
@@ -140,17 +139,21 @@
         }
     }
 }
-@media(max-width:767.98px){
-    .work{
-        padding: 72px 20px;
-        .work-section{
-            // flex-direction: column;
-            .work-container{
-                width: 100%;
-                .work-picture{
 
-                    .picture_link{
-                        img{
+@media(max-width:767.98px) {
+    .work {
+        padding: 72px 20px;
+
+        .work-section {
+
+            // flex-direction: column;
+            .work-container {
+                width: 100%;
+
+                .work-picture {
+
+                    .picture_link {
+                        img {
                             height: 400px;
                         }
                     }
@@ -160,33 +163,38 @@
         }
     }
 }
-@media(max-width:575.98px){
-    .work{
+
+@media(max-width:575.98px) {
+    .work {
         padding: 36px 0;
-        
-        .work-section{
-            
-            .work-container{
 
-                .work-picture{
+        .work-section {
 
-                    .picture_link{
-                        img{
+            .work-container {
+
+                .work-picture {
+
+                    .picture_link {
+                        img {
                             height: 210px;
                         }
                     }
                 }
-                .work-h4{
+
+                .work-h4 {
                     margin-bottom: 10px;
-                a{
-                    font-size: 22px;
+
+                    a {
+                        font-size: 22px;
+                    }
                 }
-                }
-                .work-text{
+
+                .work-text {
                     font-size: 15px;
                 }
-                .work-languages{
-                    span{
+
+                .work-languages {
+                    span {
                         font-size: 14px;
                         padding: 3px 4px;
                     }
