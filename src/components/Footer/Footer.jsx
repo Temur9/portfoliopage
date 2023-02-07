@@ -1,13 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 import "../Footer/Footer.scss";
 const Footer = () => {
-
   const goToTop = () => {
     window.scrollTo({
-        top: 0,
-        behavior: "smooth",
+      top: 0,
+      behavior: "smooth",
     });
-};
+  };
+  const [currentYear, setCurrentYear] = useState(new Date().getFullYear());
 
   return (
     <>
@@ -19,17 +19,17 @@ const Footer = () => {
               <div className="links-container">
                 <ul>
                   <li>
-                    <a target={'blank'} href="/#">
+                    <a target={"blank"} href="/#">
                       <i className="fa-brands fa-linkedin-in"></i>
                     </a>
                   </li>
                   <li>
-                    <a target={'blank'} href="https://github.com/Temur9">
+                    <a target={"blank"} href="https://github.com/Temur9">
                       <i className="fa-brands fa-github-alt"></i>
                     </a>
                   </li>
                   <li>
-                    <a target={'blank'} href="https://t.me/timurkhan9">
+                    <a target={"blank"} href="https://t.me/timurkhan9">
                       <i className="fa-brands fa-telegram"></i>
                     </a>
                   </li>
@@ -37,9 +37,11 @@ const Footer = () => {
               </div>
             </div>
             <p>
-              Build with <i className="fa-solid fa-heart"></i> Tulamov Temur © 2023
+              Build with <i className="fa-solid fa-heart"></i> Tulamov Temur ©
+              {` ${currentYear}`}
               <br />
-              Powered by React<br />
+              Powered by React
+              <br />
               Hosted by Netlify
             </p>
             <div className="toTopBtn">
