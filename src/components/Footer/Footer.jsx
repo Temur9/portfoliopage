@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "../Footer/Footer.scss";
 const Footer = () => {
   const goToTop = () => {
@@ -7,8 +7,6 @@ const Footer = () => {
       behavior: "smooth",
     });
   };
-  const [currentYear, setCurrentYear] = useState(new Date().getFullYear());
-
   return (
     <>
       <footer className="footer" id="footer">
@@ -38,7 +36,7 @@ const Footer = () => {
             </div>
             <p>
               Build with <i className="fa-solid fa-heart"></i> Tulamov Temur ©
-              {` ${currentYear}`}
+              {` ${new Date().getFullYear()}`}
               <br />
               Powered by React
               <br />
