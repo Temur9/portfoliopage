@@ -15,6 +15,7 @@
             margin: 0 0 96px;
             padding: 0 24px;
             
+            
             .work-picture {
                 box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
                 border-radius: 6px;
@@ -29,7 +30,8 @@
                 .picture_link {
                     img {
                         width: 100%;
-                        height: 350px;
+                        aspect-ratio: 16/9;
+                        height: auto;
                         vertical-align: middle;
                     }
                 }
@@ -108,14 +110,6 @@
                 margin: 0 0 48px;
                 padding: 0 16px;
 
-                .work-picture {
-                    .picture_link {
-                        img {
-                            height: 280px;
-                        }
-                    }
-                }
-
                 .work-h4 {
                     margin-bottom: 20px;
 
@@ -149,16 +143,6 @@
             // flex-direction: column;
             .work-container {
                 width: 100%;
-
-                .work-picture {
-
-                    .picture_link {
-                        img {
-                            height: 400px;
-                        }
-                    }
-                }
-
             }
         }
     }
@@ -171,15 +155,6 @@
         .work-section {
 
             .work-container {
-
-                .work-picture {
-
-                    .picture_link {
-                        img {
-                            height: 210px;
-                        }
-                    }
-                }
 
                 .work-h4 {
                     margin-bottom: 10px;
