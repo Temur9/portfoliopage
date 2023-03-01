@@ -30,11 +30,9 @@ const About = () => {
                 <h3 className="about-stack_h3">MY ACTUAL STACK</h3>
                 <div className="about-stack">
                   {stacks.map(({ img, alt }) => (
-                    <div key={shortid.generate()} className="stack">
-                      <Flip bottom>
-                        <img src={img} alt={alt} />
-                      </Flip>
-                    </div>
+                    <Flip bottom><div key={shortid.generate()} className="stack">
+                    <img src={img} alt={alt} />
+                </div></Flip>
                   ))}
                 </div>
               </div>

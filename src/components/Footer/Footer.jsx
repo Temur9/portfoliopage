@@ -16,23 +16,25 @@ const Footer = () => {
             <h3>Let's connect!</h3>
             <div className="connect-links">
               <div className="links-container">
-                <Bounce><ul>
-                  <li>
-                    <a target={"blank"} href="/#">
-                      <i className="fa-brands fa-linkedin-in"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a target={"blank"} href="https://github.com/Temur9">
-                      <i className="fa-brands fa-github-alt"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a target={"blank"} href="https://t.me/timurkhan9">
-                      <i className="fa-brands fa-telegram"></i>
-                    </a>
-                  </li>
-                </ul></Bounce>
+                <Bounce>
+                  <ul>
+                    <li>
+                      <a target={"blank"} href="/#">
+                        <i className="fa-brands fa-linkedin-in"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a target={"blank"} href="https://github.com/Temur9">
+                        <i className="fa-brands fa-github-alt"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a target={"blank"} href="https://t.me/timurkhan9">
+                        <i className="fa-brands fa-telegram"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </Bounce>
               </div>
             </div>
             <p>
