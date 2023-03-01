@@ -1,4 +1,5 @@
 import React from "react";
+import { Fade, Flip } from "react-reveal";
 import "../About/About.scss";
 import stacks from "./Stacks";
 
@@ -12,7 +13,9 @@ const About = () => {
           <div className="about-section">
             <div className="about-image">
               <div className="image-container">
-                <img src="/images/myAvatar.svg" alt="avatar" />
+                <Flip left>
+                  <img src="/images/myAvatar.svg" alt="avatar" />
+                </Flip>
               </div>
             </div>
             <div className="about-container">
@@ -28,33 +31,37 @@ const About = () => {
                 <div className="about-stack">
                   {stacks.map(({ img, alt }) => (
                     <div key={shortid.generate()} className="stack">
-                      <img src={img} alt={alt} />
+                      <Flip bottom>
+                        <img src={img} alt={alt} />
+                      </Flip>
                     </div>
                   ))}
                 </div>
               </div>
               <div className="mission-container">
-                <div className="missions">
-                  <img
-                    src="/images/web-development.svg"
-                    alt="web-development"
-                  />
-                  <h3>Development</h3>
-                  <p>I develop the Front-end part of your projects.</p>
-                </div>
-                <div className="missions">
-                  <img src="/images/responsive.svg" alt="web-development" />
-                  <h3>Responsive</h3>
-                  <p>My websites will work on any device, big or small.</p>
-                </div>
-                <div className="missions">
-                  <img src="/images/dynamic.svg" alt="web-development" />
-                  <h3>Dynamic</h3>
-                  <p>
-                    Websites don't have to be static, I love making pages come
-                    to life.
-                  </p>
-                </div>
+                <Fade top>
+                  <div className="missions">
+                    <img
+                      src="/images/web-development.svg"
+                      alt="web-development"
+                    />
+                    <h3>Development</h3>
+                    <p>I develop the Front-end part of your projects.</p>
+                  </div>
+                  <div className="missions">
+                    <img src="/images/responsive.svg" alt="web-development" />
+                    <h3>Responsive</h3>
+                    <p>My websites will work on any device, big or small.</p>
+                  </div>
+                  <div className="missions">
+                    <img src="/images/dynamic.svg" alt="web-development" />
+                    <h3>Dynamic</h3>
+                    <p>
+                      Websites don't have to be static, I love making pages come
+                      to life.
+                    </p>
+                  </div>
+                </Fade>
               </div>
               <div className="mission-text">
                 <p>

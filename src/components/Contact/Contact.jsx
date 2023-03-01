@@ -1,4 +1,5 @@
 import React from "react";
+import { Slide } from "react-reveal";
 import "../Contact/Contact.scss";
 const Contact = () => {
   return (
@@ -7,7 +8,7 @@ const Contact = () => {
         <div className="container">
           <div className="contact-section">
             <header className="contact-header">
-              <h2>Get in touch</h2>
+              <Slide left><h2>Get in touch</h2></Slide>
               <p>
                 Do you have web development projects, freelance missions or just
                 opportunities to offer me? Let's get in touch and discuss it

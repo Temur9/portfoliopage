@@ -1,4 +1,5 @@
 import React from "react";
+import { Bounce } from "react-reveal";
 import "../Footer/Footer.scss";
 const Footer = () => {
   const goToTop = () => {
@@ -15,7 +16,7 @@ const Footer = () => {
             <h3>Let's connect!</h3>
             <div className="connect-links">
               <div className="links-container">
-                <ul>
+                <Bounce><ul>
                   <li>
                     <a target={"blank"} href="/#">
                       <i className="fa-brands fa-linkedin-in"></i>
@@ -31,7 +32,7 @@ const Footer = () => {
                       <i className="fa-brands fa-telegram"></i>
                     </a>
                   </li>
-                </ul>
+                </ul></Bounce>
               </div>
             </div>
             <p>

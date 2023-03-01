@@ -1,5 +1,6 @@
 import React from 'react'
 import '../Home/Home.scss'
+import TypedText from './typed-animation'
 
 
 const Home = () => {
@@ -13,7 +14,8 @@ const Home = () => {
                     </div>
                     <div className="home-right_section">
                         <p className="home-text">Hello! I'm <span>Tulamov Temur</span></p>
-                        <h1 className='home-text_header'>Front-end Developer</h1>
+                        <h1 className='home-text_header'><TypedText/></h1>
+                        
                         <p className="home-text" id='home-text'>I develop responsive, optimized and efficient websites. Satisfiction on my projects is my pride.</p>
                         <div className="home-buttons">
                             <a href="/#contact" className="home-button">Get in touch</a>
