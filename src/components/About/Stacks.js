@@ -1,30 +1,30 @@
 const stacks = [{
         img: '/images/stacks/html.svg',
-        alt: 'html'
+        alt: 'HTML'
     },
     {
         img: '/images/stacks/css.svg',
-        alt: 'css'
+        alt: 'CSS'
     },
     {
         img: '/images/stacks/sass.svg',
-        alt: 'sass'
+        alt: 'Sass'
     },
     {
         img: '/images/stacks/bootstrap.svg',
-        alt: 'bootstrap'
+        alt: 'Bootstrap'
     },
     {
         img: '/images/stacks/javascript.svg',
-        alt: 'javascript'
+        alt: 'JavaScript'
     },
     {
         img: '/images/stacks/react.svg',
-        alt: 'react'
+        alt: 'React.js'
     },
     {
         img: '/images/stacks/redux.svg',
-        alt: 'redux'
+        alt: 'Redux'
     },
     {
         img: '/images/stacks/npm.svg',
@@ -36,11 +36,11 @@ const stacks = [{
     },
     {
         img: '/images/stacks/git.svg',
-        alt: 'git'
+        alt: 'Git'
     },
     {
         img: '/images/stacks/github.svg',
-        alt: 'github'
+        alt: 'GitHub'
     },
 
 ]
