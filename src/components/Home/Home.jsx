@@ -19,7 +19,7 @@ const Home = () => {
                         <p className="home-text" id='home-text'>I develop responsive, optimized and efficient websites. Satisfiction on my projects is my pride.</p>
                         <div className="home-buttons">
                             <a href="/#contact" className="home-button">Get in touch</a>
-                            <a href="https://drive.google.com/file/d/1TBQReVaf_HLf3YHfVFh1SUoSwAsRYDRS/view?usp=sharing" className="home-button">My resume</a>
+                            <a href="https://drive.google.com/file/d/1Txz3jSu0lEh9qvOssbEzo50Sz6oYGOXU/view?usp=sharing" className="home-button">My resume</a>
                         </div>
                     </div>
                 </div>
