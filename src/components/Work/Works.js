@@ -1,6 +1,6 @@
 const works = [{
     name: 'Marico',
-    url: "https://marico-temurbek.netlify.app/",
+    url: "https://marico-mu.vercel.app/",
     img: "/images/marico.png",
     alt: "marico",
     github: "https://github.com/Temur9/Marico",
