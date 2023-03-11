@@ -9,7 +9,7 @@ const works = [{
   },
   {
     name: 'Online shopping',
-    url: "https://coctail-shop.netlify.app/",
+    url: "https://coctail-shop-nu.vercel.app/",
     img: "/images/coctail-shop.png",
     alt: "coctail-shop",
     github: "https://github.com/Temur9/shopping",
