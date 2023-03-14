@@ -28,11 +28,11 @@ const stacks = [{
     },
     {
         img: '/images/stacks/npm.svg',
-        alt: 'npm'
+        alt: 'Npm'
     },
     {
         img: '/images/stacks/yarn.svg',
-        alt: 'yarn'
+        alt: 'Yarn'
     },
     {
         img: '/images/stacks/git.svg',

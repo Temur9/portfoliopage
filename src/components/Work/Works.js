@@ -17,6 +17,15 @@ const works = [{
     stacks: ["HTML", "CSS", "React", "React-Router-Dom", "Redux", ],
   },
   {
+    name: 'CRUD, Authorization app',
+    url: "https://crud-app-mu-bice.vercel.app/",
+    img: "/images/crud-app.png",
+    alt: "crud-app",
+    github: "https://github.com/Temur9/redux-toolkit-app",
+    definition: "CRUD and Authorization app build with React and Redux-toolkit",
+    stacks: ["HTML", "CSS", "Bootstrap", "React", "Redux-toolkit", "Axios", "React-Router-Dom"],
+  },
+  {
     name: 'rContact',
     url: "https://temur-rcontact.netlify.app/",
     img: "/images/rcontact.png",
