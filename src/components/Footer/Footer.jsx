@@ -19,7 +19,7 @@ const Footer = () => {
                 <Bounce>
                   <ul>
                     <li>
-                      <a target={"blank"} href="/#">
+                      <a target={"blank"} href="https://www.linkedin.com/in/temur-tulamov-662581256/">
                         <i className="fa-brands fa-linkedin-in"></i>
                       </a>
                     </li>
