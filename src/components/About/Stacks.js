@@ -15,8 +15,16 @@ const stacks = [{
         alt: 'Bootstrap'
     },
     {
+        img: '/images/stacks/tailwindcss.svg',
+        alt: 'Tailwind'
+    },
+    {
         img: '/images/stacks/javascript.svg',
         alt: 'JavaScript'
+    },
+    {
+        img: '/images/stacks/typescript.svg',
+        alt: 'TypeScript'
     },
     {
         img: '/images/stacks/react.svg',
@@ -29,10 +37,6 @@ const stacks = [{
     {
         img: '/images/stacks/npm.svg',
         alt: 'Npm'
-    },
-    {
-        img: '/images/stacks/yarn.svg',
-        alt: 'Yarn'
     },
     {
         img: '/images/stacks/git.svg',

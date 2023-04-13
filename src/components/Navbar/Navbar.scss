@@ -1,29 +1,51 @@
 @import '../../App.scss';
 
-.navbar{
+.navbar {
 
-    .nav-section{
+    .header {
+        position: fixed;
+        top: 0;
+        z-index: 1;
+        width: 100%;
+        background-color: $inputBg;
+
+        .progress-container {
+            width: 100%;
+            height: 4px;
+            background: $inputBg;
+
+            .progress-bar {
+                height: 4px;
+                background: linear-gradient(90deg, rgba(187,210,255,1) 0%, rgba(82,133,255,1) 35%, rgba(33,78,207,1) 100%);
+                width: 0%;
+                border-radius: 6px;
+            }
+        }
+    }
+
+    .nav-section {
         display: flex;
         align-items: center;
         justify-content: flex-end;
         padding-top: 50px;
 
-        ul{
+        ul {
             list-style: none;
             display: flex;
             align-items: center;
-            
-            li{
+
+            li {
                 margin-left: 30px;
 
-                a{
+                a {
                     text-decoration: none;
                     color: $dark;
                     font-family: $bold;
                     font-size: 20px;
                     text-transform: uppercase;
                     transition: .3s ease;
-                    &:hover{
+
+                    &:hover {
                         color: $blue;
                     }
                 }
@@ -32,24 +54,25 @@
     }
 }
 
-@media(max-width:1023.98px){
-    .navbar{
+@media(max-width:1023.98px) {
+    .navbar {
 
-        .nav-section{
+        .nav-section {
             padding-top: 40px;
         }
     }
 }
 
-@media(max-width:767.98px){
-    .navbar{
+@media(max-width:767.98px) {
+    .navbar {
 
-        .nav-section{
+        .nav-section {
             padding-top: 30px;
             justify-content: center;
-            ul{
-                li{
-                    a{
+
+            ul {
+                li {
+                    a {
                         font-size: 18px;
                     }
                 }
@@ -57,4 +80,3 @@
         }
     }
 }
-
